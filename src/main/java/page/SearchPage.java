@@ -15,7 +15,8 @@ public class SearchPage extends BasePage {
 
     public void checkListSearchCity(String city) {
         waitForPageLoadComplete(10);
-        List<WebElement> searchCity = driver.findElements(By.xpath("//div[@data-testid='property-card']//span[contains(text(),'" + city + "')]"));
+        List<WebElement> searchCity = driver.findElements(By
+                .xpath("//div[@data-testid='property-card']//span[contains(text(),'" + city + "')]"));
         for (int i = 0; i < searchCity.size(); i++) {
             Assert.assertTrue(searchCity.get(i).getText().contains(city));
         }
