@@ -28,7 +28,7 @@ public class SearchCityAndPeriodTest extends ConfigTest {
     }
 
     @Test(priority = 2)
-    public void checkingHotelSearchByCityAndDateInOutShowOnDisplay() {
+    public void checkFilter() {
         getHomePage().selectLanguageEnglishUK();
         getHomePage().enterSearchCity(CITY);
         getHomePage().clickToFieldCheckIn();
