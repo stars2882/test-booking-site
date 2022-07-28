@@ -40,6 +40,5 @@ public class SearchCityAndPeriodTest extends ConfigTest {
         assertTrue(getSearchPage().checkCityDestination(CITY));
         assertTrue(getSearchPage().checkCheckInOutDate(DATE_CHECK_IN, MONTH_CHECK_IN_OUT_CHAR, YEAR_CHECK_OUT));
         assertTrue(getSearchPage().checkCheckInOutDate(DATE_CHECK_OUT, MONTH_CHECK_IN_OUT_CHAR, YEAR_CHECK_OUT));
-
     }
 }

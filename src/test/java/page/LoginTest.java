@@ -8,7 +8,6 @@ public class LoginTest extends ConfigTest{
     private final static String FALSE_PASS = "101010";
     private final static String PASS = "101010AbcD";
 
-
     @Test(priority = 3)
     public void checkLoggingFalseAndTruePassword() {
         getHomePage().selectLanguageEnglishUK();
